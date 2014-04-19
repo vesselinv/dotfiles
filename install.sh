@@ -8,7 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-files="bashrc bash_aliases gemrc irbrc pryrc profile face gitconfig gtk-bookmarks selected_editor pearrc dmrc liquidpromptrc liquidprompt"    # list of files/folders to symlink in homedir
+files="bashrc bash_aliases bash_profile gemrc irbrc pryrc profile face gitconfig gtk-bookmarks selected_editor pearrc dmrc liquidpromptrc liquidprompt"    # list of files/folders to symlink in homedir
 
 ##########
 
