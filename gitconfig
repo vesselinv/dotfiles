@@ -3,3 +3,6 @@
 	email = vesselinv@me.com
 [credential]
 	helper = cache
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
