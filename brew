@@ -11,9 +11,7 @@ brew install android-sdk
 brew install curl-ca-bundle
 brew install phantomjs
 brew install mysql
-brew install autoconf
 brew install git
-brew install libksba
 brew install node
 brew install postgresql
 brew install imagemagick
@@ -25,7 +23,6 @@ brew install redis
 brew install ssh-copy-id
 
 brew cask install chromium
-brew cask install rubymine
 brew cask install android-file-transfer
 brew cask install appcleaner
 brew cask install cyberduck
@@ -45,3 +42,9 @@ brew cask install transmission
 brew cask install sublime-text
 brew cask install sourcetree
 brew cask install spectacle
+brew cask install imageoptim
+brew cask install atmonitor
+brew cask install spotifree
+brew cask install spotify
+brew cask install virtualbox
+brew cask install the-unarchiver
