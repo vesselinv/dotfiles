@@ -1,0 +1,47 @@
+#!/bin/bash
+
+sudo -v # ask for password only at the beginning
+
+brew update
+brew upgrade
+brew tap homebrew/versions
+brew tap phinze/homebrew-cask
+
+brew install android-sdk
+brew install curl-ca-bundle
+brew install phantomjs
+brew install mysql
+brew install autoconf
+brew install git
+brew install libksba
+brew install node
+brew install postgresql
+brew install imagemagick
+brew install openssl
+brew install readline
+brew install brew-cask
+brew install ios-sim
+brew install redis
+brew install ssh-copy-id
+
+brew cask install chromium
+brew cask install rubymine
+brew cask install android-file-transfer
+brew cask install appcleaner
+brew cask install cyberduck
+brew cask install android-studio
+brew cask install cakebrew
+brew cask install dropbox
+brew cask install iterm2
+brew cask install firefox
+brew cask install vagrant
+brew cask install skype
+brew cask install dash
+brew cask install jewelrybox
+brew cask install mysqlworkbench
+brew cask install postgres
+brew cask install vlc
+brew cask install transmission
+brew cask install sublime-text
+brew cask install sourcetree
+brew cask install spectacle
