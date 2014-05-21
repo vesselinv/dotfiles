@@ -21,6 +21,7 @@ brew install brew-cask
 brew install ios-sim
 brew install redis
 brew install ssh-copy-id
+brew install cmake
 
 brew cask install chromium
 brew cask install android-file-transfer
@@ -48,3 +49,9 @@ brew cask install spotifree
 brew cask install spotify
 brew cask install virtualbox
 brew cask install the-unarchiver
+brew cask install atom
+brew cask install gpgtools
+brew cask install clamxav
+brew cask install todoist
+brew cask install vagrant-manager
+brew cask install caffeine
