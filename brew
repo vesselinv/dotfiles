@@ -55,3 +55,5 @@ brew cask install clamxav
 brew cask install todoist
 brew cask install vagrant-manager
 brew cask install caffeine
+brew cask install calibre
+brew cask install torbrowser
