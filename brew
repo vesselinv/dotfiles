@@ -7,53 +7,73 @@ brew upgrade
 brew tap homebrew/versions
 brew tap phinze/homebrew-cask
 
-brew install android-sdk
-brew install curl-ca-bundle
-brew install phantomjs
-brew install mysql
-brew install git
-brew install node
-brew install postgresql
-brew install imagemagick
-brew install openssl
-brew install readline
-brew install brew-cask
-brew install ios-sim
-brew install redis
-brew install ssh-copy-id
-brew install cmake
+brew install ace \
+  android-sdk \
+  autoconf \
+  automake \
+  boost \
+  brew-cask \
+  cmake \
+  freetype \
+  git \
+  imagemagick \
+  ios-sim \
+  jpeg \
+  libevent \
+  libgpg-error \
+  libiconv \
+  libksba \
+  libpng \
+  libtool \
+  libxml2 \
+  libxslt \
+  libyaml \
+  makedepend \
+  mysql \
+  node \
+  openssl \
+  ossp-uuid \
+  phantomjs \
+  pkg-config \
+  postgresql \
+  readline \
+  redis \
+  ssh-copy-id \
+  tmux \
+  vim \
+  wget \
+  xz
 
-brew cask install chromium
-brew cask install android-file-transfer
-brew cask install appcleaner
-brew cask install cyberduck
-brew cask install android-studio
-brew cask install cakebrew
-brew cask install dropbox
-brew cask install iterm2
-brew cask install firefox
-brew cask install vagrant
-brew cask install skype
-brew cask install dash
-brew cask install jewelrybox
-brew cask install mysqlworkbench
-brew cask install postgres
-brew cask install vlc
-brew cask install transmission
-brew cask install sublime-text
-brew cask install sourcetree
-brew cask install spectacle
-brew cask install imageoptim
-brew cask install atmonitor
-brew cask install spotifree
-brew cask install spotify
-brew cask install virtualbox
-brew cask install the-unarchiver
-brew cask install atom
-brew cask install gpgtools
-brew cask install clamxav
-brew cask install todoist
-brew cask install vagrant-manager
-brew cask install caffeine
-brew cask install calibre
-brew cask install torbrowser
+brew cask install android-file-transfer \
+  android-studio \
+  appcleaner \
+  asepsis \
+  caffeine \
+  cakebrew \
+  calibre \
+  chromium \
+  clamxav \
+  cyberduck \
+  dropbox \
+  firefox \
+  gpgtools \
+  imageoptim \
+  iterm2 \
+  jewelrybox \
+  mysqlworkbench \
+  perian \
+  postgres \
+  skype \
+  sourcetree \
+  spectacle \
+  spotifree \
+  spotify \
+  steam \
+  the-unarchiver \
+  tinkertool \
+  torbrowser \
+  transmission \
+  vagrant \
+  vagrant-manager \
+  virtualbox \
+  vlc
