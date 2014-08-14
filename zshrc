@@ -70,6 +70,14 @@ export LANG=en_US.UTF-8
 # ssh
 export SSH_KEY_PATH="~/.ssh/id_rsa"
 
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+export PATH=/bin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:$PATH
+export EDITOR='subl -w'
+export ANDROID_HOME=/usr/local/opt/android-sdk
+export SSL_CERT_FILE=/usr/local/etc/openssl/certs/ca-bundle.crt
+
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
