@@ -5,7 +5,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="aussiegeek"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -45,13 +45,13 @@ HIST_STAMPS="mm/dd/yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(brew brew-cask bundler capistrano osx rails rake rvm sublime vagrant git)
+plugins=(brew brew-cask capistrano osx rails rake rvm sublime vagrant git)
 
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/Users/vendetta/.rvm/gems/ruby-2.1.2/bin:/Users/vendetta/.rvm/gems/ruby-2.1.2@global/bin:/Users/vendetta/.rvm/rubies/ruby-2.1.2/bin:/usr/local/heroku/bin:/bin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:/Users/vendetta/.rvm/bin"
+export PATH="$PATH:/bin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/usr/local/git/bin:/usr/local/MacGPG2/bin:"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -71,7 +71,7 @@ export LANG=en_US.UTF-8
 export SSH_KEY_PATH="~/.ssh/id_rsa"
 
 ### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+export PATH="$PATH:/usr/local/heroku/bin"
 
 export PATH=/bin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:$PATH
 export EDITOR='subl -w'
@@ -101,3 +101,5 @@ alias bet='bundle exec rake test:prepare'
 alias ber='bundle exec rake db:rollback'
 alias bes='bundle exec rspec'
 alias simulator='open /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications/iPhone\ Simulator.app'
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
