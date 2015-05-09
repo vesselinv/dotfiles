@@ -7,6 +7,6 @@ brew upgrade
 brew tap homebrew/versions
 brew tap phinze/homebrew-cask
 
-brew install ace android-sdk ant antiword autoconf automake boost brew-cask cairo cloog cmake fdk-aac ffmpeg fontconfig freetype gcc gd gdbm gettext git glib gmp gmp4 gnuplot gobject-introspection graphviz gsl imagemagick ios-sim isl jpeg lame lapack leptonica libevent libffi libgpg-error libiconv libksba libmpc libpng libtiff libtool libvo-aacenc libxml2 libxslt libyaml little-cms2 llvm lua makedepend mpfr mysql node openjpeg openssl ossp-uuid phantomjs pixman pkg-config plotutils poppler postgresql python qt readline redis sqlite ssh-copy-id tcl-tk terminal-notifier tesseract tmux vim wget wordnet x264 xvid xz
+brew install android-sdk ant autoconf automake brew-cask brew-rmtree cmake gcc gcc48 git gsl ios-sim lapack libgpg-error libksba libtool libxml2 libxslt libyaml llvm makedepend mysql node openssl phantomjs pkg-config postgresql python qt readline redis sqlite ssh-copy-id tcl-tk terminal-notifier wget
 
-brew cask install android-studio appcleaner caffeine calibre cheatsheet chromium firefox gpgtools handbrake imageoptim iterm2 jewelrybox keycastr launchcontrol launchrocket menumeters perian pgadmin3 postgres secrets skype sourcetree spectacle sqlite-database-browser teamviewer the-unarchiver timemachineeditor tinkertool torbrowser transmission vagrant vagrant-manager vienna virtualbox vlc
+brew cask install android-studio appcleaner caffeine calibre cheatsheet chromium cyberduck disk-inventory-x firefox handbrake imageoptim iterm2 keycastr launchcontrol menumeters onyx pgadmin3 postgres skype sourcetree spectacle sqlite-database-browser the-unarchiver timemachineeditor tinkertool torbrowser transmission vienna vlc
