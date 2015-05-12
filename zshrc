@@ -76,7 +76,6 @@ export PATH="$PATH:/usr/local/heroku/bin"
 export PATH=/bin:/sbin:/usr/local/bin:/usr/local/sbin:/usr/bin:$PATH
 export EDITOR='subl -w'
 export ANDROID_HOME=/usr/local/opt/android-sdk
-export SSL_CERT_FILE=/usr/local/etc/openssl/certs/ca-bundle.crt
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
