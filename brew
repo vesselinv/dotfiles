@@ -7,6 +7,6 @@ brew upgrade
 brew tap homebrew/versions
 brew tap phinze/homebrew-cask
 
-brew install android-sdk ant autoconf automake brew-cask brew-rmtree cmake gcc gcc48 git gsl ios-sim lapack libgpg-error libksba libtool libxml2 libxslt libyaml llvm makedepend mysql node openssl phantomjs pkg-config postgresql python qt readline redis sqlite ssh-copy-id tcl-tk terminal-notifier wget
+brew install brew-cask gnupg gsl mysql node openssl phantomjs198 pkg-config readline tree
 
-brew cask install android-studio appcleaner caffeine calibre cheatsheet chromium cyberduck disk-inventory-x firefox handbrake imageoptim iterm2 keycastr launchcontrol menumeters onyx pgadmin3 postgres skype sourcetree spectacle sqlite-database-browser the-unarchiver timemachineeditor tinkertool torbrowser transmission vienna vlc
+brew cask install appcleaner caffeine cyberduck disk-inventory-x firefox handbrake imageoptim iterm2 launchcontrol menumeters onyx postgres skype sourcetree spectacle the-unarchiver torbrowser transmission vienna vlc
